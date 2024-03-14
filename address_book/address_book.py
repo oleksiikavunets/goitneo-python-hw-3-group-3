@@ -3,7 +3,7 @@ import pathlib
 import pickle
 from collections import UserDict
 from collections import defaultdict
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta
 
 _CACHE_DIR = pathlib.Path(__file__).parent.joinpath('.cache')
 
